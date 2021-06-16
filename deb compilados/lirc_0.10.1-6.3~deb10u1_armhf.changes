@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Sat, 20 Mar 2021 21:32:41 +0100
+Source: lirc
+Binary: liblirc-client0 liblirc-client0-dbgsym liblirc-dev liblirc0 liblirc0-dbgsym liblircclient-dev liblircclient0 lirc lirc-dbgsym lirc-doc lirc-x lirc-x-dbgsym
+Architecture: armhf all
+Version: 0.10.1-6.3~deb10u1
+Distribution: buster
+Urgency: medium
+Maintainer: Debian Lirc Team <team+debian-lirc@tracker.debian.org>
+Changed-By: Andreas Beckmann <anbe@debian.org>
+Description:
+ liblirc-client0 - infra-red remote control support - client library
+ liblirc-dev - Infra-red remote control support - development files
+ liblirc0   - Infra-red remote control support - Run-time libraries
+ liblircclient-dev - Transitional placeholder for obsoleted liblircclient-dev
+ liblircclient0 - Transitional placeholder for obsoleted liblircclient0
+ lirc       - Infra-red remote control support - daemons and utils
+ lirc-doc   - Infra-red remote control support - website and manual docs
+ lirc-x     - infra-red remote control support - X utilities
+Changes:
+ lirc (0.10.1-6.3~deb10u1) buster; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Rebuild for buster.
+Checksums-Sha1:
+ 1a3aafa204d0a10f1eeda805335208dc02cf0b2a 42204 liblirc-client0-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 57bf28607da0ddc1b8a0d6c014916776ccfe58cc 68616 liblirc-client0_0.10.1-6.3~deb10u1_armhf.deb
+ a5fe28fc048e50cd3aabf26c2cf4ddfd14e75247 92420 liblirc-dev_0.10.1-6.3~deb10u1_armhf.deb
+ dc3b904d300d8b8069fa3684ecbf3e2b28f1f862 287692 liblirc0-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 9578fe490056953860b086d3684514c84bc7f69e 122344 liblirc0_0.10.1-6.3~deb10u1_armhf.deb
+ 3f72539e913b7e234110a53823af9285f2776580 54620 liblircclient-dev_0.10.1-6.3~deb10u1_armhf.deb
+ 79978084ac4b1605cbc799d256b01286c8b8bbc1 54600 liblircclient0_0.10.1-6.3~deb10u1_armhf.deb
+ 201453d794982b926191db175c94f690c7105afa 961340 lirc-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 54de42283e1a8c13e9607834e91defeead44742c 1200148 lirc-doc_0.10.1-6.3~deb10u1_all.deb
+ b5987a32896354c69c99ff68e8946f6292dfa9db 46656 lirc-x-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 6d61375a223041c09db9455e1d4a2cd1995aabb3 70740 lirc-x_0.10.1-6.3~deb10u1_armhf.deb
+ 51f8412ac165456d86c0d214f2dd2a08c2cb7548 10752 lirc_0.10.1-6.3~deb10u1_armhf.buildinfo
+ 08f03bd1e4081351d0a3b9447f4d5b679fb0a17f 489112 lirc_0.10.1-6.3~deb10u1_armhf.deb
+Checksums-Sha256:
+ a1f6c289943a1137bb27ac677eb1dec859bff2c136fbdeef0276ca05db2dc9ad 42204 liblirc-client0-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ a126237bb59888f510f70ed1dc36bbde1a473f458e199b6286c34e96ea5f84c7 68616 liblirc-client0_0.10.1-6.3~deb10u1_armhf.deb
+ 306d93434c0e209c727346a80a1111f7199025be839da4a7dae043d756a4f1e6 92420 liblirc-dev_0.10.1-6.3~deb10u1_armhf.deb
+ e8465ee2e66858c1e1580ce9aabe0c01f9eed4763e16ee09d131cd68b48a613f 287692 liblirc0-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 2f2a5216c913c0902627e10a956d688cf7d667658a2a0769bd90a0ce989dea2b 122344 liblirc0_0.10.1-6.3~deb10u1_armhf.deb
+ 086d1167b9f28eed47f1d9609562862e2dd5c4f5cac3124579d268cd553977f9 54620 liblircclient-dev_0.10.1-6.3~deb10u1_armhf.deb
+ 7eb83c09de49848b851d81de05e8304014346b002be40c85c18d7714c085c242 54600 liblircclient0_0.10.1-6.3~deb10u1_armhf.deb
+ 88042328e79920899f2e8cebf52a39122dcead903fef48106cb62bb2a61e172e 961340 lirc-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 91f9e3d54c1de22537770a71a6f5a8fe1ab9a62073ec1966b0f285b9618032e7 1200148 lirc-doc_0.10.1-6.3~deb10u1_all.deb
+ 74607f6bb9f6151674ccccb7acfb7e0d07cac9e418c5f4bf1fe6478e0fa42d7c 46656 lirc-x-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 283a6aa8110e9290aa74d85ff857d03dacd637a673f90e105ddf187f348b561e 70740 lirc-x_0.10.1-6.3~deb10u1_armhf.deb
+ f42ab323327147b3711e50c18a5b4c6127fcae173c9eef9c59c779632dffc885 10752 lirc_0.10.1-6.3~deb10u1_armhf.buildinfo
+ 92379d0d9c2928bda0f61d5f27f92f403bc0ce2f422abe28e3d9957a42eee573 489112 lirc_0.10.1-6.3~deb10u1_armhf.deb
+Files:
+ f515dd0aecdfb688d77e1611948d4a98 42204 debug optional liblirc-client0-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ ecf6ce270bc6659cf1b2f75e44051a13 68616 libs optional liblirc-client0_0.10.1-6.3~deb10u1_armhf.deb
+ 2dd709461459c482133770c3cee1e6b9 92420 libdevel optional liblirc-dev_0.10.1-6.3~deb10u1_armhf.deb
+ 68a1c5a9906d8e9330c503eb11d4781c 287692 debug optional liblirc0-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 214a90033f448e8c3e8b51318b21e71d 122344 libs optional liblirc0_0.10.1-6.3~deb10u1_armhf.deb
+ 5fbee75d9193a286948ae7f8a1c14820 54620 libdevel optional liblircclient-dev_0.10.1-6.3~deb10u1_armhf.deb
+ 9505817a4caf12c78093d4fc7fba3902 54600 libs optional liblircclient0_0.10.1-6.3~deb10u1_armhf.deb
+ 1a2bf12479f952a6c04c69a48b8c74a2 961340 debug optional lirc-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ c3aeefc9da9fed0ac419fa9e742e71ea 1200148 doc optional lirc-doc_0.10.1-6.3~deb10u1_all.deb
+ 4ede8d10aa98d8a50ef087543959eb4d 46656 debug optional lirc-x-dbgsym_0.10.1-6.3~deb10u1_armhf.deb
+ 57d7fa5278b5c7537271b424b5206a4f 70740 utils optional lirc-x_0.10.1-6.3~deb10u1_armhf.deb
+ a89d00c88a2e0db9d9d3b7e39f59d545 10752 utils optional lirc_0.10.1-6.3~deb10u1_armhf.buildinfo
+ 4bf5bb869805181417afb9fc0bd1333b 489112 utils optional lirc_0.10.1-6.3~deb10u1_armhf.deb
